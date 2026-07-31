@@ -324,10 +324,56 @@ footer { position: relative; z-index: 1; text-align: center; padding: 2rem; bord
   .silhouette-wrap { display: none; }
 }
 @media (max-width: 600px) {
-  nav { padding: 1rem 1.2rem; }
-  .nav-links, .nav-search { display: none; }
-  .hero h1 { font-size: 2rem; }
-  .info-section { grid-template-columns: 1fr; }
-  .intake-panel { padding: 1.4rem; }
-  .diagnosis-web { transform: scale(0.68); transform-origin: top center; height: 290px; }
+
+  nav {
+    padding: 1rem 1.2rem;
+  }
+
+  .nav-links,
+  .nav-search {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .info-section {
+    grid-template-columns: 1fr;
+  }
+
+  .intake-panel {
+    padding: 1.4rem;
+  }
+
+  .results-section {
+    padding: 4rem 1rem 2rem;
+    overflow-x: hidden;
+  }
+
+  .diagnosis-web {
+    width: 100%;
+    max-width: 320px;
+    height: 300px;
+    margin: 0 auto;
+    transform: scale(0.72);
+    transform-origin: top center;
+    left: 0;
+    right: 0;
+  }
+
+  .panel-wrap {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .panel {
+    width: 100%;
+    padding: 1.2rem;
+  }
+
+  .mini-grid {
+    grid-template-columns: 1fr;
+  }
 }
