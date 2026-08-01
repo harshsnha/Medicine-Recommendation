@@ -405,27 +405,27 @@ footer { position: relative; z-index: 1; text-align: center; padding: 2rem; bord
 }
 
 .node[data-tab="desc"]{
-    left:280px;
+    left:255px;
     top:95px;
 }
 
 .node[data-tab="precaution"]{
-    left:280px;
+    left:255px;
     top:205px;
 }
 
 .node[data-tab="meds"]{
     left:160px;
-    top:265px;
+    top:275px;
 }
 
 .node[data-tab="workouts"]{
-    left:40px;
+    left:65px;
     top:205px;
 }
 
 .node[data-tab="diets"]{
-    left:40px;
+    left:65px;
     top:95px;
 }
 }
